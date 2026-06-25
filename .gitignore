@@ -1,0 +1,27 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local configurations / secrets
+.env
+.env.local
+.env.*.local
+
+# Databases & local state
+local_db.sqlite
+chroma_db/
+uploaded_papers/
+backend.log
+*.log
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store

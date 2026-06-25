@@ -1,0 +1,68 @@
+/* frontend/assets/custom.css */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Glassmorphism style boxes */
+.paper-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 12px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.paper-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Custom header typography */
+h1, h2, h3 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}
+
+/* Chat bubble styling */
+.chat-bubble-user {
+    background-color: #2b5c8f;
+    color: white;
+    border-radius: 16px 16px 4px 16px;
+    padding: 12px 16px;
+    margin-bottom: 8px;
+    max-width: 80%;
+    margin-left: auto;
+    font-size: 14px;
+}
+
+.chat-bubble-assistant {
+    background-color: #24272c;
+    color: #e2e8f0;
+    border-radius: 16px 16px 16px 4px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 12px 16px;
+    margin-bottom: 8px;
+    max-width: 80%;
+    font-size: 14px;
+}
+
+/* Source citations panel style */
+.citation-box {
+    background-color: rgba(99, 102, 241, 0.05);
+    border-left: 3px solid #6366f1;
+    padding: 8px 12px;
+    border-radius: 0 8px 8px 0;
+    margin-top: 6px;
+    font-size: 12px;
+    color: #94a3b8;
+}
+
+/* Sidebar Custom Styling */
+.sidebar .sidebar-content {
+    background-color: #0f172a;
+}
